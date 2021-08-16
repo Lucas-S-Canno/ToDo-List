@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>To-Do List</title>
+</head>
+<body>
+    <header>
+        <h1 class="tittle">ToDo App</h1>
+    </header>
+    <main>
+        <div class="content">
+
+            <div class="list">
+
+                <div class="checked">
+                    <h2 class="sub-title">Concluídos</h2>
+                    
+                    <!-- <div class="to-do">
+                        <input type="checkbox" class="check">
+                        <label class="check-text">Para Fazer</label>
+                    </div> -->
+                </div>
+
+                <hr>
+                
+                <div class="not-checked">
+                    <h2 class="sub-title">Não concluídos</h2>
+
+                    <!-- <div class="to-do">
+                        <input type="checkbox" class="check">
+                        <label class="check-text">Para Fazer</label>
+                    </div> -->
+                </div>
+
+            </div>
+
+            <div class="create-new-task">
+                <div class="task-numbers">
+                    <div class="numbers-checked numbers">
+                        <h3 class="title-number">Concluídas</h3>
+                        <h3 class="completed-number to-do-number"></h3>
+                    </div>
+                    <div class="numbers-not-checked numbers">
+                        <h3 class="title-number">Não concluídas</h3>
+                        <h3 class="not-completed-number to-do-number"></h3>
+                    </div>
+                </div>
+                <textarea class="new-task" placeholder="Nova Tarefa"></textarea>
+                <button class="btn-create">Criar nova tarefa</button>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
